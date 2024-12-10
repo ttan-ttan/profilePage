@@ -1,2 +1,2 @@
 # profilePage
-do own profile page
+trying to set up a website where i can upload my career switch journey
