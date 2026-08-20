@@ -6,33 +6,57 @@ Passionate about turning messy data into reliable systems. I bring 10+ years of 
 
 ---
 
+<style>
+.projects-grid{display:flex;flex-wrap:wrap;gap:1rem;margin:0 -0.5rem}
+.project-card{flex:1 1 480px;background:#fff;border-radius:10px;box-shadow:0 8px 24px rgba(16,24,40,0.06);overflow:hidden;display:flex;align-items:stretch}
+.project-media{width:45%;min-width:200px;height:180px;object-fit:cover}
+.project-body{padding:1rem;display:flex;flex-direction:column;gap:0.6rem}
+.project-meta{font-size:0.9rem;color:#4b5563}
+.btn{display:inline-block;padding:0.4rem 0.75rem;border-radius:8px;text-decoration:none;font-weight:600}
+.btn-primary{background:#0ea5e9;color:white}
+.btn-outline{border:1px solid #cbd5e1;color:#0ea5e9;background:transparent}
+@media (max-width:700px){.project-card{flex-direction:column}.project-media{width:100%;height:200px}}
+</style>
+
 ## Highlights
 
-### 1) NTU SE7 — Garang‑Guni (Software Engineering Capstone)
-Repository: https://github.com/ntu-se7-grp3/garang-guni
+<div class="projects-grid">
 
-Short summary
-- Full‑stack recycling-material web application developed as part of NTU SCTP in Software Engineering (team of 4).
-- Implemented core business features: scheduling, user authentication (JWT), role-based flows, and relational database integration.
-- Built RESTful APIs, containerized services using Docker, and added CI/CD checks (GitHub Actions, Snyk, SpotBugs, JUnit).
+<div class="project-card">
+  <img class="project-media" src="https://raw.githubusercontent.com/ttan-ttan/profilePage/main/assets/ntuse7-garang-guni.png" alt="Garang-Guni UI screenshot" />
+  <div class="project-body">
+    <h3><a href="https://github.com/ntu-se7-grp3/garang-guni">NTU SE7 — Garang‑Guni</a></h3>
+    <p class="project-meta">Full‑stack recycling‑materials marketplace (NTU SCTP capstone). I contributed to frontend, backend integrations, and CI/CD.</p>
+    <ul>
+      <li>Features: scheduling system, JWT authentication, role‑based flows</li>
+      <li>Tech: React • JavaScript • Spring Boot / Node • PostgreSQL • Docker</li>
+      <li>CI/CD & quality: GitHub Actions, Snyk, SpotBugs, JUnit</li>
+    </ul>
+    <p style="margin-top:auto">
+      <a class="btn btn-primary" href="https://github.com/ntu-se7-grp3/garang-guni">Repository</a>
+      <a class="btn btn-outline" href="https://github.com/ntu-se7-grp3/garang-guni-backend">Backend</a>
+    </p>
+  </div>
+</div>
 
-Tech: JavaScript • React • Node / Spring Boot • PostgreSQL • Docker • GitHub Actions
+<div class="project-card">
+  <img class="project-media" src="https://raw.githubusercontent.com/ttan-ttan/profilePage/main/assets/gensg-pipeline.png" alt="GenSG pipeline diagram" />
+  <div class="project-body">
+    <h3><a href="https://github.com/ttan-ttan/GenSG_InterimProject_Group2">GenSG — Data Engineering Capstone</a></h3>
+    <p class="project-meta">12‑week data engineering capstone to design ELT pipelines and prepare reliable datasets for analysis.</p>
+    <ul>
+      <li>Implemented ELT pipelines, data cleaning, and transformations in Python & SQL</li>
+      <li>Tech: Python • PostgreSQL • Azure • Docker • Airflow (if used)</li>
+      <li>Deliverable: clean datasets ready for analytics & dashboards</li>
+    </ul>
+    <p style="margin-top:auto">
+      <a class="btn btn-primary" href="https://github.com/ttan-ttan/GenSG_InterimProject_Group2">Repository</a>
+      <a class="btn btn-outline" href="https://gitfront.io/r/xxxx">Project report</a>
+    </p>
+  </div>
+</div>
 
-Quick links
-- Frontend / UI examples: https://github.com/ntu-se7-grp3/garang-guni
-- Backend: https://github.com/ntu-se7-grp3/garang-guni-backend
-- Mobile: https://github.com/ntu-se7-grp3/garang-guni-mobile
-
----
-
-### 2) GenSG — Data Engineering Capstone
-Repository: https://github.com/ttan-ttan/GenSG_InterimProject_Group2
-
-Short summary
-- 12‑week data engineering project through Generation Singapore focused on collecting, processing, and storing datasets into centralized pipelines.
-- Implemented ELT pipelines, automated data cleaning and transformation scripts in Python and SQL, and prepared the dataset for downstream analysis/dashboarding.
-
-Tech: Python • SQL (PostgreSQL) • ETL/ELT • Azure • Docker
+</div>
 
 ---
 
@@ -41,7 +65,7 @@ Passionate and particular about data documentation and utilization. After 10 yea
 
 ## Selected technical skills
 - Languages: Python, SQL (PostgreSQL), JavaScript, Java, C, Shell scripting
-- Data: ETL/ELT pipelines, data modelling, PowerBI, MySQL, PostgreSQL
+- Data: ELT/ETL pipelines, data modelling, PowerBI, MySQL, PostgreSQL
 - Cloud / DevOps: Azure, Docker, GitHub Actions, Git, Snyk
 - Methodologies: Agile / Scrum, SDLC, Incident response
 
@@ -71,11 +95,13 @@ Passionate and particular about data documentation and utilization. After 10 yea
 ## Artifacts & visuals
 Below are two visuals that summarize my career journey and transferable skills. They help recruiters quickly understand my background and the skills I bring.
 
-![Career Journey Map](assets/career-journey-map.png)
+<p align="center">
+  <img src="assets/career-journey-map.png" alt="Career Journey Map" width="720" />
+</p>
 
-![Transferable Skills](assets/transferable-skills.png)
-
-If you want I can also add thumbnails or GIFs of the projects themselves (screenshots of the web UI or pipeline diagrams).
+<p align="center">
+  <img src="assets/transferable-skills.png" alt="Transferable Skills" width="720" />
+</p>
 
 ---
 
@@ -87,12 +113,4 @@ If you want I can also add thumbnails or GIFs of the projects themselves (screen
 
 ---
 
-If you'd like I can:
-- Add project badges (build, coverage, license) and demo links if available.
-- Reformat the Highlights into a two-column project card layout with screenshots and CTA buttons.
-- Create a top-level `ttan-ttan/ttan-ttan` profile repo with this README so it appears on your GitHub profile page (I can create that repo and copy the README if you want).
-
-Next steps — images
-- I will add the two images you agreed to if you confirm: default filenames will be `assets/career-journey-map.png` and `assets/transferable-skills.png`. You can also provide alternate filenames/captions.
-
-Confirm and I will upload the image files into `assets/` and commit them.
+If you'd like I can also create a top-level `ttan-ttan/ttan-ttan` profile repo containing this README so it appears on your GitHub profile page. Reply "create profile repo" and I'll add it.
