@@ -69,18 +69,30 @@ Passionate and particular about data documentation and utilization. After 10 yea
 ---
 
 ## Artifacts & visuals
-I have a few visuals (career journey map, transferable-skills infographic, screenshots) that make the profile more engaging. If you'd like, I can add those images into this README (create an `assets/` folder) — upload the image files here or confirm you want me to add the two images you shared in this chat.
+Below are two visuals that summarize my career journey and transferable skills. They help recruiters quickly understand my background and the skills I bring.
 
-## Contact & next steps
+![Career Journey Map](assets/career-journey-map.png)
+
+![Transferable Skills](assets/transferable-skills.png)
+
+If you want I can also add thumbnails or GIFs of the projects themselves (screenshots of the web UI or pipeline diagrams).
+
+---
+
+## Contact
+- Email: yong4425@live.com
+- Location / Nationality: Singaporean (2023)
+- LinkedIn: https://linkedin.com/in/tan-yj-a6610b288
 - GitHub: https://github.com/ttan-ttan
-- (Optional) LinkedIn / Resume: add a link and I'll place it here.
 
 ---
 
 If you'd like I can:
 - Add project badges (build, coverage, license) and demo links if available.
-- Embed screenshots/GIFs and short video demos for each highlight.
-- Reformat this README into a two-column project highlight layout with CTA buttons.
-- Or create the `ttan-ttan/ttan-ttan` profile repo with this README as your GitHub profile README instead.
+- Reformat the Highlights into a two-column project card layout with screenshots and CTA buttons.
+- Create a top-level `ttan-ttan/ttan-ttan` profile repo with this README so it appears on your GitHub profile page (I can create that repo and copy the README if you want).
 
-Tell me which of these you'd like next and whether you want me to add the two images from this chat into the README now.
+Next steps — images
+- I will add the two images you agreed to if you confirm: default filenames will be `assets/career-journey-map.png` and `assets/transferable-skills.png`. You can also provide alternate filenames/captions.
+
+Confirm and I will upload the image files into `assets/` and commit them.
